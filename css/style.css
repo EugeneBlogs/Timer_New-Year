@@ -1,0 +1,145 @@
+
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+.timer-title {
+  text-align: center;
+}
+
+.timer {
+  color: white;
+  text-align: center;
+}
+
+.timer-item,
+.number {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.timer-item {
+  background: cyan;
+}
+
+.number {
+  background: blue;
+}
+
+.timer-text {
+  display: block;
+}
+
+#christmas_tree {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 250px;
+}
+
+.st0 {
+  fill: #332C28;
+}
+
+.st1 {
+  fill: #0f690f;
+}
+
+.st2 {
+  fill: #388f38;
+}
+
+.st3 {
+  fill: #a60505;
+}
+
+.st4 {
+  fill: #d90000;
+}
+
+.red-md {
+  fill: red;
+  animation: 0.6s red-flash ease-in-out infinite;
+}
+
+@keyframes red-flash {
+  40% {
+    fill: rgb(150, 0, 0);
+  }
+
+  80% {
+    fill: rgb(190, 0, 0);
+  }
+}
+
+.gold-lt {
+  fill: yellow;
+  animation: 0.6s gold-lt-flash ease-in-out infinite;
+}
+
+@keyframes gold-lt-flash {
+  40% {
+    fill: rgb(150, 150, 0);
+  }
+
+  80% {
+    fill: rgb(190, 190, 0);
+  }
+}
+
+.blue-lt {
+  fill: blue;
+  animation: 0.6s blue-lt-flash ease-in-out infinite;
+}
+
+@keyframes blue-lt-flash {
+  40% {
+    fill: rgb(0, 0, 150);
+  }
+
+  80% {
+    fill: rgb(0, 0, 190);
+  }
+}
+
+.blue-dk {
+  fill: lawngreen;
+  animation: 0.6s blue-dk-flash ease-in-out infinite;
+}
+
+@keyframes blue-dk-flash {
+  40% {
+    fill: rgb(100, 150, 0);
+  }
+
+  80% {
+    fill: rgb(75, 100, 0);
+  }
+}
+
+.gold-dk {
+  fill: purple;
+  animation: 0.6s gold-dk-flash ease-in-out infinite;
+}
+
+@keyframes gold-dk-flash {
+  40% {
+    fill: rgb(170, 0, 170);
+  }
+
+  80% {
+    fill: rgb(150, 0, 150);
+  }
+}
+
+.g1 {
+  animation-delay: 0s;
+}
+
+.g2 {
+  animation-delay: 0.4s;
+}
+
+.g3 {
+  animation-delay: 0.8s;
+}
